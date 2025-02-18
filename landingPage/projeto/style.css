@@ -1,0 +1,97 @@
+*{
+   margin: 0px;
+    font-family:Inter;
+}
+
+#textosuperior{
+    background-color: #303030;
+    width: 1563px;
+    padding: 150px;
+    height: 47px;    
+
+}
+
+#titulosuperior{
+    font-size: 60px;
+    color: white;
+    font-weight: 600;
+    margin-left: 62px;
+}
+#subtitulosup{
+    color: white;
+    font-size: 20px;
+    margin: 20px 20px 10px 64px
+}
+
+#informativos{
+    background-color:#F9F9F9;
+    width: 1780px;
+    padding: 40px;
+    display: grid;
+    grid-auto-flow: column;
+    font-size: 29px;
+}
+
+.informacao{
+    margin: 10px 0px 0px 40px;
+
+}
+#segundotext{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 140px;
+    margin-left: 60px;
+
+}
+#textoimg{
+    font-size: 35px;
+    margin-left: 100px;
+    margin-top: 122px;
+}
+#dados{
+    text-align: center;
+    background-color: #303030;
+    color: #ffff;
+    padding: 10px;
+    
+}
+
+#formulario{
+    padding: 80px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffff;
+}
+
+#paradados{
+    margin-top: 45px;
+}
+
+input{
+   font-size:22px;
+    width: 300px;
+    height: 72px;
+    background-color: #ffff;
+    border-radius: 5px;
+    margin: 20px;
+    border: 0px;
+    padding-left: 10px;
+}
+button{
+    background-color: #C07212;
+    height: 60px;
+    width: 250px;
+    color: #ffffff;
+    border: 0px;
+    border-radius: 5px;
+    font-weight: bolder;
+    cursor: pointer;
+    
+}
+button:hover{
+    background-color: #ce8123;
+    color:white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px; color: #343738;
+    transition-duration: 0,6s;
+}
